@@ -4,11 +4,11 @@
 // Your task is to find and fix the bugs so that it works as expected.
 
 function doubleEvenNumbers(numbers) {
-    let result;
+    let result = [];
     
     for (let i = 0; i <= numbers.length; i++) {
-        if (numbers[i] % 2 = 0) {
-            result.push(numbers[i] * 2);
+        if (numbers[i] % 2 === 0 ) {
+            result.push(numbers[i]*2);
         }
     }
     

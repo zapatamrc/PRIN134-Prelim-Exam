@@ -4,7 +4,7 @@
 // Your task is to find and fix the bugs so that it properly returns the correct message.
 
 function filterPositiveNumbers(numbers) {
-    let positiveNumbers;
+    let positiveNumbers = [];
     
     for (let i = 0; i <= numbers.length; i++) {
         if (numbers[i] > 0) {
